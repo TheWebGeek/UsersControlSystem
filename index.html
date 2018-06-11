@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Users Control Model</title>
+    <link rel="icon" href="jr7.png">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+      <h1>Add a new user</h1>
+      <form id="form">
+          <input type="text" class="form-control" id="firstName" placeholder="First name"> <br>
+
+          <input type="text" class="form-control" id="lastName" placeholder="Last name"> <br>
+
+          <input type="number" class="form-control" id="phone" placeholder="Phone number"> <br>
+
+          <input type="text" class="form-control" id="item" placeholder="Item">
+
+          <input type="submit" value="Add" class="btn btn-success btn-block" id="btn2">
+      </form>
+      <button id="btn3" class="btn btn-danger">Clear All</button>
+        <table class="table">
+            <thead>
+                <th>Number</th>
+                <th>Id</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Phone</th>
+                <th>Item</th>
+                <th>Delete</th>
+            </thead>
+            <tbody class="tbody">
+            </tbody>
+        </table>
+
+
+
+
+
+        <!-- <button id="btn1" class="btn btn-success">Add a new one</button> -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
